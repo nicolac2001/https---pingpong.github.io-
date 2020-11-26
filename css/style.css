@@ -1,0 +1,97 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+/* background for all pages */
+
+	body {
+		background-image: url('../img/green.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+
+} 
+
+a:link {
+  text-decoration: none;
+}
+
+
+/* options */
+
+#homehead {
+	color: white;
+	font-family: krungthep;
+	text-align: center;
+}
+
+#player1 {
+	position:absolute;
+	top: 100px;
+	left: 150px;
+	z-index:-1;
+	
+}
+#draw {
+	position:absolute;
+	top: 100px;
+	left: 450px;
+	z-index:-1;
+}
+
+
+#Player2 {
+	position:absolute;
+	top: 100px;
+	left: 900px;
+	z-index:-1;
+}
+
+/* player1 */
+
+#head1 {
+	color: white;
+	font-family: krungthep;
+	text-align: center;
+
+}
+
+#player1vid {
+	position:absolute;
+	top: 100px;
+	left: 350px;
+	z-index:-1;
+}
+
+
+/* draw */
+
+#head2 {
+	color: white;
+	font-family: krungthep;
+	text-align: center;
+
+}
+
+#drawvideo {
+	position:absolute;
+	top: 100px;
+	left: 350px;
+	z-index:-1;
+}
+
+/* player2 */
+
+#head3 { 
+	color: white;
+	font-family: krungthep;
+	text-align: center;
+	 }
+#player2vid {
+	position:absolute;
+	top: 100px;
+	left: 350px;
+	z-index:-1;
+}
+
+
